@@ -1,8 +1,8 @@
 package com.company;
 import java.util.Scanner;
 public class Main {
-	public static final Line L = new Line(-1.33, 0, 0.6);
-	public static final Line ZXC = new Line(-1.33, -2.5, 0.6);
+	public static final Line L = new Line(1.33, 0, 0.6);
+	public static final Line ZXC = new Line(1.33, -2.5, 0.6);
 	public static final HorizantalParabola GH= new HorizantalParabola(-3, 2, 0.5);
 	public static final HorizantalParabola P = new HorizantalParabola(-5, -6, 0.5);
 	public static final HorizantalParabola QW = new HorizantalParabola(-1, 4, 0.125);
@@ -49,10 +49,10 @@ public class Main {
 		printColorForPoint(8, 0);
 		System.out.print("2; 3 = ");
 		printColorForPoint(2, 3);
-		System.out.print("-8; 2 = ");
-		printColorForPoint(-8, 2);
-		System.out.print("-2; 1 = ");
-		printColorForPoint(-2, 1);
+		System.out.print("2; -1 = ");
+		printColorForPoint(2, -1);
+		System.out.print("0; 0 = ");
+		printColorForPoint(0, 0);
 		System.out.print("-4; -5 = ");
 		printColorForPoint(-4, -5);
 		System.out.print("3; 8 = ");
